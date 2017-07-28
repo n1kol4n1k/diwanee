@@ -11,7 +11,6 @@ header {
 	height:695px;
 	width:100%;
 	background-color:#f1ece0;
-
 }
 #innerheader {
 	background-image:url(../img/header1.png);
@@ -20,6 +19,7 @@ header {
 	margin-left:auto;
 	margin-right:auto;
 	overflow:auto;
+	background-size: 100% 100%;
 }
 #navi {
 	width:1000px;
@@ -98,6 +98,7 @@ header {
 	margin-top:80px;
 	margin-left:auto;
 	margin-right:auto;
+	background-size: 100% 100%;
 }
 .icon1 {
 	background-image:url(../img/services2.png);
@@ -212,6 +213,7 @@ h6 {
 	margin-right:10px;
 	line-height:32px;
 	text-align:center;
+	margin-top:20px;
 }
 #job2 {
 	width:100%;
@@ -241,6 +243,7 @@ h6 {
 	margin-right:10px;
 	line-height:32px;
 	text-align:center;
+	margin-top:20px;
 }
 .jobside3 {
 	float:right;
@@ -321,7 +324,7 @@ h7 {
 .footertext {
 	width:300px;
 	height:200px;
-	margin-top:50px;
+	margin-top:20px;
 	font-size:15px;
 	color:#666;
 	line-height:25px;
@@ -366,5 +369,294 @@ h7 {
 	padding:5px;
 	float:left;
 	margin-top:20px;
-	
+}
+#tabletnavi {
+	display:none;
+}
+.sidetextmobile {
+	display:none;
+}
+#mobifooter {
+	display:none;
+}
+#headeroverlay {
+	width:100%;
+	height:490px;
+	background: rgba(34, 34, 34, 0.97);
+	position: relative;
+  	top:-490px;
+	margin-bottom: -490px;
+	text-align:center;
+	overflow:hidden;
+	line-height:80px;
+}
+.innerheaderoverlay {
+	width:100%;
+	height:250px;
+	margin-top:80px;
+}
+#headeroverlay a {
+	text-decoration:none;
+	color:#ccc;
+	font-size:24px;
+}
+.navifooter {
+	height:50px;
+	width:100%;
+	margin-top:50px;
+}
+.pratitenas {
+	float:left;
+	color:#898989;
+	margin-left:15px;
+	line-height:0px;
+}
+.navifooter img {
+	float:right;
+	margin-right:15px;
+}
+/* Tablet version */
+@media only screen and (max-device-width: 1100px) {
+       #innernavi {
+		   display:none;
+	   }
+	   #tabletnavi {
+		   display:block;
+		   float:right;
+	   }
+	   #navi {
+		   width:944px;
+	   }
+	   #box {
+		   width:340px;
+		   height:450px;
+	   }
+	   #innerheader {
+		   width:1025px;
+		   height:488px;
+	   }
+	   header {
+		   height:488px;
+	   }
+	   #front {
+		   margin-top:60px;
+	   }
+	   #services {
+		   width:1025px;
+		   height:450px;
+	   }
+	   .icon1 {
+			width:66px;
+			height:63px;
+		}
+	   .icon2 {
+			width:63px;
+			height:63px;
+		}
+	   .icon3 {
+			width:63px;
+			height:63px;
+		}
+	   .line2 {
+			width:35px;
+
+		}
+		.boxtext {
+			width:300px;
+		}
+}
+/* Mobile phone version */
+@media only screen and (max-device-width: 800px) {
+       #innernavi {
+		   display:none;
+	   }
+	   #tabletnavi {
+		   display:block;
+		   float:right;
+		   margin-right:30px;
+		   margin-top:10px;
+	   }
+	   #navi {
+		   width:100%;
+		   margin-top:10px;
+	   }
+	   #box {
+		   width:100%;
+		   height:450px;
+		   float:none;
+		   overflow:auto;
+	   }
+
+	   #innerheader {
+		   width:100%;
+		   height:557px;
+		   background-size: 1440px 557px;
+		   background-position:center;
+		   background-repeat:no-repeat;
+	   }
+	   .innertext {
+		   padding-left:15px;
+		   padding-right:15px;
+	   }
+	   header {
+		   height:557px;
+	   }
+	   #front {
+		   margin-top:60px;
+		   width:100%;
+	   }
+	   #services {
+		   width:100%;
+		   height:1350px;
+	   }
+	   .icon1 {
+			width:80px;
+			height:75px;
+		}
+	   .icon2 {
+			width:75px;
+			height:75px;
+			
+		}
+	   .icon3 {
+			width:75px;
+			height:75px;
+			
+		}
+		#icon {
+			margin-top:40px;;
+		}
+	   .line2 {
+			width:48px;
+
+		}
+		.boxtext {
+			width:100%;
+			
+		}
+		.sidetext {
+			display:none;
+		}
+		.sidetextmobile {
+			display:block;
+			text-align:center;
+		}
+		.maintext {
+			width:100%;
+			font-size:50px;
+		}
+		h3 {
+			margin-top:50px;
+		}
+		h4 {
+			font-size:40px;
+		}
+		.jobtext {
+			width:100%;
+		}
+		.text1 {
+			padding:15px;
+		}
+		.jobside2 , .jobside3 {
+			display:none;
+		}
+		h6, h5 {
+			font-size:18px;
+			color:#222;
+			padding-left:15px;
+			padding-top:10px;
+		}
+		#job1, #job2, #job12 {
+			width:100%;
+			margin:0;
+			height:160px;
+		}
+		#job1 {
+			background-color:#f8f7f5;
+		}
+		#job2 {
+			background-color:#fff;
+		}
+		#job12 {
+			color:#222;
+		}
+		.hashtags2 {
+			color:#c41230;
+			border-style:none;
+			margin-right:0;
+			width:70px;
+		}
+		.hashtags {
+			border-style:none;
+			margin-right:0;
+			width:70px;
+		}
+		.jobbio {
+			width:100%;
+			font-size:15px;
+		}
+		.jobside1 {
+			width:100%;
+			height:160px;
+		}
+		.mobi {
+			margin-left:15px;
+		}
+		.about {
+			width:100%;
+			height:100%;
+			font-size:18px;
+			margin-bottom:100px;
+		}
+		.mobi2 {
+			padding-left:15px;
+			padding-right:15px;
+		}
+		.footerbox1, .footerbox2, .footerbox3 {
+			float:none;
+			height:200px;
+			width:100%;
+			margin:0;
+		}
+		.footerbox1 {
+			margin-top:40px;
+		}
+		footer, #footer1, #innerfooter {
+			height:600px;
+			width:100%;
+			margin:0;
+			overflow:hidden;
+		}
+		#innerfooter {
+			margin-left:20px;
+		}
+		footer {
+			margin-top:50px;
+			overflow:visible;
+		}
+		#innerfooter2 {
+			width:100%;
+		}
+		.left {
+			margin-left:20px;
+		}
+		.right {
+			display:none;
+		}
+		#mobifooter {
+			display:block;
+			background-color:#222;
+			width:100%;
+			height:60px;
+			color:#666;
+		}
+		.linksite {
+			text-align:right;
+			float:right;
+			margin-right:20px;
+		}
+		#mobifooter img {
+			margin-left:20px;
+			margin-top:10px;
+		}
 }

@@ -5,6 +5,8 @@
     <title>Diwanee</title>
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/js.js"></script>
 </head>
 
 <body>
@@ -18,6 +20,9 @@
                     <a href="#">POSLOVI</a>
                     <a href="#">KONTAKT</a>
                 </div>
+                <div id="tabletnavi">
+                	<a href="javascript:opennavi();"><img src="img/navibutton.png" /></a>
+                </div>
             </div>
             <div id="front">
             	<div class="maintext">
@@ -27,9 +32,18 @@
                 <div class="sidetext">
                 Digital Media Agency always looking for motivated, multi-talented, and organized people to join our diverse team.
                 </div>
+                <div class="sidetextmobile">DIGITAL MEDIA AGENCY</div>
             </div>	
     	</div>
     </header>
+    <div id="headeroverlay" style="display:none;">
+        <div class="innerheaderoverlay">
+            <a href="#">O NAMA</a><br />
+            <a href="#">POSLOVI</a><br />
+            <a href="#">KONTAKT</a>
+        </div>
+        <div class="navifooter"><p class="pratitenas">PRATITE NAS</p><a href="#"><img src="img/tw2.png" /></a><a href="#"><img src="img/fb2.png" /></a></div>
+    </div>
     <main>
         <div id="services">
         	<div id="box">
@@ -38,7 +52,7 @@
                 <h2>DEVELOPMENT</h2>
                 <div class="line2"></div>
                 <div class="boxtext">
-                	Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. 
+                	<p class="innertext">Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
                 </div>
             </div>
             <div id="box" class="selected">
@@ -47,7 +61,7 @@
                 <h2>WEB & UI DESIGN</h2>
                 <div class="line2"></div>
                 <div class="boxtext">
-                	Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. 
+                	<p class="innertext">Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
                 </div>
             </div>
             <div id="box">
@@ -56,18 +70,18 @@
                 <h2>WORK IN TEAM</h2>
                 <div class="line2"></div>
                 <div class="boxtext">
-                	Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. 
+                	<p class="innertext">Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
                 </div>
             </div>
         </div>
         <h3>OTVORENE POZICIJE</h3>
         <h4>POSLOVI</h4>
         <div class="line"></div>
-        <div class="jobtext">We are always looking for motivated, multi-talented, and organized people to join our diverse team.</div>
+        <div class="jobtext"><p class="text1">We are always looking for motivated, multi-talented, and organized people to join our diverse team.</p></div>
         <div id="job1">
         	<div class="jobside1">
             	<h5>FRONT-END DEVELOPER</h5>
-                <p class="jobbio">Trazimo Front End Developera sa odlicnim poznavanjem i iskustvom vise od godinu dana u Drupalu.</p>
+                <div class="jobbio"><p class="mobi">Trazimo Front End Developera sa odlicnim poznavanjem i iskustvom vise od godinu dana u Drupalu.</p></div>
                 <div class="hashtags">#HTML</div>
                 <div class="hashtags">#CSS</div>
                 <div class="hashtags">#JavaScript</div>
@@ -78,7 +92,7 @@
             <div id="job12">
                 <div class="jobside1">
                     <h6>PROJECT MANAGER</h6>
-                    <p class="jobbio">Trazimo Project Managera sa odlicnim organizacionim sposobnostima i iskustvom vodjenja digital projekata...</p>
+                    <div class="jobbio"><p class="mobi">Trazimo Project Managera sa odlicnim organizacionim sposobnostima i iskustvom vodjenja digital projekata...</p></div>
                     <div class="hashtags2">#HTML</div>
                     <div class="hashtags2">#CSS</div>
                     <div class="hashtags2">#Balsamiq</div>
@@ -90,7 +104,7 @@
          <div id="job1">
         	<div class="jobside1">
             	<h5>UX/UI DESIGNER</h5>
-                <p class="jobbio">Ako si kreativan i volis da radis u timu, posedujes visegodisnje iskustvo iz oblasti digital dizajna, ux/ui...</p>
+                <div class="jobbio"><p class="mobi">Ako si kreativan i volis da radis u timu, posedujes visegodisnje iskustvo iz oblasti digital dizajna, ux/ui...</p></div>
                 <div class="hashtags">#Sketch</div>
                 <div class="hashtags">#AdobeXD</div>
                 <div class="hashtags">#Photoshop</div>
@@ -102,9 +116,9 @@
         <h3>DIWANEE BEOGRAD</h3>
         <h4>DIGITAL MEDIA COMPANY</h4>
         <div class="line"></div>
-        <p class="about">Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara i distribuira originalan, visokokvalitetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTube-om, i zajedno smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom sveta. 
+        <div class="about"><p class="mobi2">Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara i distribuira originalan, visokokvalitetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTube-om, i zajedno smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom sveta. 
 <br /><br />
-Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.</p>
+Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.</p></div>
 		<h3>PRATITE NAS</h3>
         <div id="social">
         	<a href="#" class="twitter"><img src="img/twitter.png" /></a>
@@ -137,9 +151,10 @@ Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitaln
                     </div></div>
             </div>
         </div>
+        <div id="mobifooter"><a href="#"><img src="img/in.png" /></a><a href="#"><img src="img/tw.png" /></a><p class="linksite">www.diwanee.com</p></div>
         <div id="footer2">
         	<div id="innerfooter2">
-            	<div class="left">COPYRIGHT &copy; 2015  DIWANEEE SERBIA ALL RIGHTS RESERVED</div>
+            	<div class="left">COPYRIGHT &copy; 2015  DIWANEEE SERBIA</div>
                 <div class="right"><a href="#"><img src="img/in.png" /></a><a href="#"><img src="img/tw.png" /></a>www.diwanee.com</div>
             </div>
         </div>
